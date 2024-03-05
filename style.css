@@ -1,0 +1,188 @@
+body{
+    font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  padding: 0;
+  margin: 0;
+}
+nav{
+    background-color:black;
+    color:azure;
+    padding: 20px 50px;
+}
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color:navy;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+.searchInput::placeholder{
+    color:lightblue;
+}
+.tellAStory{
+    margin-left: 20px;
+}
+.donate{
+    font-size: 18px;
+    border: 2px /* border type and color*/;
+    color: snow;
+    cursor: pointer;
+}
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color:lightblue;
+    font-weight: 400;
+}
+
+.slider{
+    background: url("https://cdn.pixabay.com/photo/2018/03/21/10/48/book-3246278_1280.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sliderWrapper{
+    display: flex;
+    width: 700vw;
+
+}
+.sliderItem{
+    color:dodgerblue;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sliderTitle{
+    position: absolute;
+    left: 10%;
+    top:-5%;
+    color: white;
+    font-size: 60px;
+    text-shadow: 5px 2px black;
+    text-align: center;
+    font-weight: 900;
+    z-index: 1;
+}
+/*.sliderBg{
+    position:relative;
+    left:50%;
+    top:0%;
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    
+}
+*/
+.sliderNote{
+    position: absolute;
+    right: 5%;
+    top: 80%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px black;
+    z-index: 1;
+}
+
+.sliderRead{
+    position: absolute;
+    right: 5%;
+    top: 92%;
+    color: white;
+    background-color: deepskyblue;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    z-index: 1;
+    cursor: pointer;
+}
+.sliderRead:hover{
+    background-color:rgb(3, 46, 57);
+}
+.sliderImage{
+    width: 500px;
+    height: 550px;
+    position: relative;
+    left:10%;
+
+}
+
+.sliderItem:nth-child(1){
+    background: url("https://cdn.pixabay.com/photo/2018/03/21/10/48/book-3246278_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sliderItem:nth-child(2){
+    background: url("https://cdn.pixabay.com/photo/2016/03/24/13/45/coffee-1276784_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sliderItem:nth-child(3){
+    background: url("https://cdn.pixabay.com/photo/2020/03/16/14/58/family-4937226_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sliderItem:nth-child(4){
+    background: url("https://cdn.pixabay.com/photo/2022/10/25/19/55/beach-7546731_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sliderItem:nth-child(5){
+    background: url("https://cdn.pixabay.com/photo/2016/11/29/09/41/bag-1868758_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sliderItem:nth-child(6){
+    background: url("https://img.freepik.com/free-photo/light-from-open-door_53876-15064.jpg?w=1380&t=st=1709439689~exp=1709440289~hmac=bdd6674bca60bfcad1a6727951237650dfc4f618d27d58b8506a00edf52cece0");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sliderItem:nth-child(7){
+    background: url("https://images.pexels.com/photos/1183434/pexels-photo-1183434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slierItem:nth-child(1) .sliderBg{
+    color: yellow;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    border-radius: 50%;
+}
